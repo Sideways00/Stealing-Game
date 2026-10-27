@@ -9,12 +9,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4067499d4dbbc1845bfd797b9ba7349c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4067499d4dbbc1845bfd797b9ba7349c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.1739855
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4067499d4dbbc1845bfd797b9ba7349c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.1739855
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4067499d4dbbc1845bfd797b9ba7349c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -112,6 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56cbe97586e7db7448ec64ce93b825e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShurikenDamage
+  damage: 12
 --- !u!54 &526193677282889269
 Rigidbody:
   m_ObjectHideFlags: 0
